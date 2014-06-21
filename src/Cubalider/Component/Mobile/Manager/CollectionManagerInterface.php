@@ -7,7 +7,7 @@ use Cubalider\Component\Mobile\Model\Collection;
 /**
  * @author Yosmany Garcia <yosmanyga@gmail.com>
  */
-interface CollectionManager
+interface CollectionManagerInterface
 {
     /**
      * Picks a collection with given criteria.

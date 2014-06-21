@@ -8,7 +8,7 @@ use Cubalider\Component\Mobile\Model\Mobile;
 /**
  * @author Yosmany Garcia <yosmanyga@gmail.com>
  */
-interface MobileManager
+interface CollectionMobileManagerInterface
 {
     /**
      * Collects mobiles that belong to the given collection.
