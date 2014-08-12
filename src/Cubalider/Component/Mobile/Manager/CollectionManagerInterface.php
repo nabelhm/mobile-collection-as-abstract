@@ -13,6 +13,7 @@ interface CollectionManagerInterface
      * Picks a collection with given criteria.
      *
      * @param mixed $criteria
+     *
      * @return Collection
      */
     public function pick($criteria);
@@ -28,7 +29,6 @@ interface CollectionManagerInterface
      * Stores given collection.
      *
      * @param Collection $collection
-     * @return void
      */
     public function add(Collection $collection);
 
@@ -36,7 +36,6 @@ interface CollectionManagerInterface
      * Deletes given collection.
      *
      * @param Collection $collection
-     * @return void
      */
     public function delete(Collection $collection);
 }
