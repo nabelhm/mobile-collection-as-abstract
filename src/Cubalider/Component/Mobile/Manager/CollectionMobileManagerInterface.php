@@ -14,6 +14,7 @@ interface CollectionMobileManagerInterface
      * Collects mobiles that belong to the given collection.
      *
      * @param Collection $collection
+     *
      * @return Mobile[]
      */
     public function collect(Collection $collection);
@@ -23,7 +24,6 @@ interface CollectionMobileManagerInterface
      *
      * @param Mobile $mobile
      * @param Collection $collection
-     * @return void
      */
     public function add(Mobile $mobile, Collection $collection);
 
@@ -32,7 +32,6 @@ interface CollectionMobileManagerInterface
      *
      * @param Mobile $mobile
      * @param Collection $collection
-     * @return void
      */
     public function remove(Mobile $mobile, Collection $collection);
 }

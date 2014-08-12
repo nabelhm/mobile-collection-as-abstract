@@ -40,7 +40,6 @@ class CollectionMobile
 
     /**
      * @param Mobile $mobile
-     * @return void
      */
     public function setMobile(Mobile $mobile)
     {
@@ -57,7 +56,6 @@ class CollectionMobile
 
     /**
      * @param Collection $collection
-     * @return void
      */
     public function setCollection(Collection $collection)
     {
